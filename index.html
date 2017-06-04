@@ -112,64 +112,65 @@
           <button type="submit" class="col-sm-4 btn btn-primary">Abfrage 2 &rarr;</button>
         </div>
       </form>
+
+
+      <script src="javascripts/libs/tingle.min.js"></script>
+      <script type="text/javascript">
+        var unit = "cm";
+        var until = "bis";
+        var from = "von";
+        var pillowForm = document.querySelector('form');
+
+        var pillowModal = new tingle.modal({
+          footer: true,
+          stickyFooter: false,
+          closeMethods: ['overlay', 'button', 'escape'],
+          closeLabel: "Close"
+        });
+        pillowModal.setContent('<h1>Kissen 1 <small>(8cm)</small></h1>');
+        pillowModal.addFooterBtn('Alles klar', 'btn float-right', function() {
+          pillowModal.close();
+        });
+
+        var prefix = function (current, min, max) {
+          if (current === min) {
+            return until;
+          } else if (current === max) {
+            return from;
+          } else {
+            return ""
+          }
+        }
+
+        var scoreUpdater = function (scoreElement, min, max) {
+          return function() {
+            scoreElement.innerHTML = prefix(this.value, min, max) + " " + this.value + " " + unit;
+          };
+        }
+
+        var attachUpdateScoreHandlers = function (updater) {
+          var rangeContainers = document.querySelectorAll(".range-container");
+
+          for(var index = 0; index < rangeContainers.length; index++){
+            slider = rangeContainers[index].querySelector("input[type='range']");
+            score = rangeContainers[index].querySelector(".score");
+
+            var update = updater(score, slider.min, slider.max);
+            slider.onchange = update;
+            slider.oninput = update;
+          }
+        };
+
+        var onPillowSubmiter = function (modal) {
+          return function (event) {
+            event.preventDefault();
+            modal.open();
+          };
+        }
+
+        attachUpdateScoreHandlers(scoreUpdater);
+        pillowForm.onsubmit = onPillowSubmiter(pillowModal);
+      </script>
     </div>
-
-    <script src="javascripts/libs/tingle.min.js"></script>
-    <script type="text/javascript">
-      var unit = "cm";
-      var until = "bis";
-      var from = "von";
-      var pillowForm = document.querySelector('form');
-
-      var pillowModal = new tingle.modal({
-        footer: true,
-        stickyFooter: false,
-        closeMethods: ['overlay', 'button', 'escape'],
-        closeLabel: "Close"
-      });
-      pillowModal.setContent('<h1>Kissen 1 <small>(8cm)</small></h1>');
-      pillowModal.addFooterBtn('Alles klar', 'btn float-right', function() {
-        pillowModal.close();
-      });
-
-      var prefix = function (current, min, max) {
-        if (current === min) {
-          return until;
-        } else if (current === max) {
-          return from;
-        } else {
-          return ""
-        }
-      }
-
-      var scoreUpdater = function (scoreElement, min, max) {
-        return function() {
-          scoreElement.innerHTML = prefix(this.value, min, max) + " " + this.value + " " + unit;
-        };
-      }
-
-      var attachUpdateScoreHandlers = function (updater) {
-        var rangeContainers = document.querySelectorAll(".range-container");
-
-        for(var index = 0; index < rangeContainers.length; index++){
-          slider = rangeContainers[index].querySelector("input[type='range']");
-          score = rangeContainers[index].querySelector(".score");
-
-          var update = updater(score, slider.min, slider.max);
-          slider.onchange = update;
-          slider.oninput = update;
-        }
-      };
-
-      var onPillowSubmiter = function (modal) {
-        return function (event) {
-          event.preventDefault();
-          modal.open();
-        };
-      }
-
-      attachUpdateScoreHandlers(scoreUpdater);
-      pillowForm.onsubmit = onPillowSubmiter(pillowModal);
-    </script>
   </body>
 </html>
