@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../bootstrap.min.css'
 
-const MattressType = (props) => (
+const Fieldset = (props) => (
   <fieldset className="form-group row">
     <legend className="col-form-legend col-sm-4">{props.legend}</legend>
     <hr />
@@ -12,4 +12,4 @@ const MattressType = (props) => (
   </fieldset>
 )
 
-export default MattressType;
+export default Fieldset;
