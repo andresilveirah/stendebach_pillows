@@ -1,49 +1,17 @@
 import React from 'react';
-import './bootstrap.min.css'
+
+import BodyMeasurements from './BodyMeasurements';
+import '../bootstrap.min.css'
 
 const App = () => (
   <div className="container">
     <img height="50" src="https://betteninnovation.com/images/Logos/2015/Betteninnovation.png" alt="Stendebach logo"></img>
     <form action="#">
 
-      <div className="form-group row range-container">
-        <label htmlFor="shoulders" className="col-sm-3 col-form-label">Schulterabstand</label>
-        <div className="col-sm-4">
-          <input type="range" className="form-control" name="shoulders" min="27" max="64" defaultValue="27" />
-        </div>
-        <span className="col-sm-2 score">bis 27 cm</span>
-      </div>
-
-
-      <div className="form-group row range-container">
-        <label htmlFor="neck" className="col-sm-3 col-form-label">Halsumfang</label>
-        <div className="col-sm-4">
-          <input type="range" className="form-control" name="neck" min="25" max="49" defaultValue="25" />
-        </div>
-        <span className="col-sm-2 score">bis 25 cm</span>
-      </div>
-
-
-      <div className="form-group row range-container">
-        <label htmlFor="head" className="col-sm-3 col-form-label">Kopfumfang</label>
-        <div className="col-sm-4">
-          <input type="range" className="form-control" name="head" min="40" max="79" defaultValue="40" />
-        </div>
-        <span className="col-sm-2 score">bis 40 cm</span>
-      </div>
-
-
-      <div className="form-group row range-container">
-        <label htmlFor="ear-to-shoulder" className="col-sm-3 col-form-label">Halslänge</label>
-        <div className="col-sm-4">
-          <input type="range" className="form-control" name="ear-to-shoulder" min="8" max="27" defaultValue="8" />
-        </div>
-        <span className="col-sm-2 score">bis 8 cm</span>
-      </div>
-
+      <BodyMeasurements />
 
       <fieldset className="form-group row">
-        <legend className="col-form-legend col-sm-3">Bevorzugte Schlafposition</legend>
+        <legend className="col-form-legend col-sm-4">Bevorzugte Schlafposition</legend>
         <div className="col-sm-4">
           <div className="form-check">
             <label className="form-check-label">
@@ -74,7 +42,7 @@ const App = () => (
 
 
       <fieldset className="form-group row">
-        <legend className="col-form-legend col-sm-3">Matratzenart</legend>
+        <legend className="col-form-legend col-sm-4">Matratzenart</legend>
         <div className="col-sm-4">
           <div className="form-check">
             <label className="form-check-label">
