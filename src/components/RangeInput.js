@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Input from './Input';
 import '../bootstrap.min.css'
 
 const start = 'bis';
@@ -14,7 +16,7 @@ class RangeInput extends React.PureComponent {
     this.prefix = this.prefix.bind(this);
     this.score = this.score.bind(this);
   }
-  
+
   updateScore(event) {
     this.setState({ current: event.target.value });
   }
@@ -41,7 +43,7 @@ class RangeInput extends React.PureComponent {
       <div className="form-group row range-container">
         <label htmlFor={inputProps.name} className="col-sm-3 col-form-label">{label}</label>
         <div className="col-sm-4">
-          <input type="range" className="form-control" onChange={this.updateScore} onInput={this.updateScore} {...inputProps} />
+          <Input type="range" className="form-control" onChange={this.updateScore} onInput={this.updateScore} {...inputProps} />
         </div>
         <span className="col-sm-2 score">{score}</span>
       </div>
