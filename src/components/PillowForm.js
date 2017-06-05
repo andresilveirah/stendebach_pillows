@@ -8,7 +8,7 @@ import FormFooter from './FormFooter';
 import '../bootstrap.min.css'
 
 const PillowForm = (props) => (
-  <form action="#">
+  <form action="#" onSubmit={(event) => event.preventDefault()}>
     <BodyMeasurements />
     <SleepingPosition />
     <MattressType />
