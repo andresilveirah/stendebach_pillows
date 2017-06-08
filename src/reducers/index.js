@@ -1,6 +1,6 @@
 const reducer = (state = {}, action) => {
   switch (action.type) {
-    case 'ATTRIBUTE_UPDATED':
+    case 'UPDATE_ATTRIBUTE':
       return {...state, [action.attributeName]: action.value};
     default:
       return state;
