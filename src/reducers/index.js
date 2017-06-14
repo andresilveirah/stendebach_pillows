@@ -1,18 +1,16 @@
 import { combineReducers } from 'redux';
 
-const attributes = (state = {}, action) => {
-  switch (action.type) {
-    case 'UPDATE_ATTRIBUTE':
-      return {...state, [action.attributeName]: action.value};
-    default:
-      return state;
-  }
-};
+import attributes from './attributes';
+import scores, * as fromScores from './scores';
 
-const score = (state = '', action) => {
-  return state;
-}
+const sumTotal = (total, current) => total + parseInt(current, 10)
 
-const reducer = combineReducers({ attributes, score });
+const reducer = combineReducers({ attributes, scores });
 
 export default reducer;
+
+export const getPillow = (state) => {
+  const initialTotal = 0;
+  const totalScore = Object.values(state.scores).reduce(sumTotal, initialTotal);
+  return fromScores.getPillowForScore(totalScore);
+};
