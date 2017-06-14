@@ -1,5 +1,5 @@
 const updateAttribute = ({ attributeName, value }) => ({
-  type: 'ATTRIBUTE_UPDATED',
+  type: 'UPDATE_ATTRIBUTE',
   attributeName,
   value
 });
