@@ -18,7 +18,7 @@ const prefix = (current, min, max) => {
 const score = (current, min, max) => prefix(current, min, max) + " " + current + " cm";
 
 const ScoreLabel = ({current, min, max}) => (
-  <span className="col-sm-2 score">{score(current, min, max)}</span>
+  <span className="col-sm-3 score">{score(current, min, max)}</span>
 );
 
 export default ScoreLabel;
