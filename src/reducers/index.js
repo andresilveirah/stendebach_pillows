@@ -1,16 +1,11 @@
 import { combineReducers } from 'redux';
 
 import attributes from './attributes';
-import scores, * as fromScores from './scores';
-
-const sumTotal = (total, current) => total + parseInt(current, 10)
+import scores, * as fromScores from './scores/';
+import pillowByScore from './pillowByScore'
 
 const reducer = combineReducers({ attributes, scores });
 
 export default reducer;
 
-export const getPillow = (state) => {
-  const initialTotal = 0;
-  const totalScore = Object.values(state.scores).reduce(sumTotal, initialTotal);
-  return fromScores.getPillowForScore(totalScore);
-};
+export const getPillow = (state) => pillowByScore(fromScores.totalScore(state));

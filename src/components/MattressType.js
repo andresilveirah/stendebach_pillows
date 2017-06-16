@@ -7,10 +7,10 @@ import '../bootstrap.min.css'
 
 const MattressType = (props) => (
   <Fieldset legend="Matratzenart">
-    <RadioInput name="mattress-type" value="Wasserbett" defaultChecked />
-    <RadioInput name="mattress-type" value="Weiche Matratze" />
-    <RadioInput name="mattress-type" value="Mittlere Matratzenfestigkeit" />
-    <RadioInput name="mattress-type" value="Harte Matratze" />
+    <RadioInput name="mattressType" label="Wasserbett" value="watterBed" defaultChecked />
+    <RadioInput name="mattressType" label="Weiche Matratze" value="soft" />
+    <RadioInput name="mattressType" label="Mittlere Matratzenfestigkeit" value="medium" />
+    <RadioInput name="mattressType" label="Harte Matratze" value="hard" />
   </Fieldset>
 )
 
