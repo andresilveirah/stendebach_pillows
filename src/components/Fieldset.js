@@ -4,7 +4,7 @@ import '../bootstrap.min.css'
 
 const Fieldset = (props) => (
   <fieldset className="form-group row">
-    <legend className="col-form-legend col-sm-4">{props.legend}</legend>
+    <legend className="col-form-legend">{props.legend}</legend>
     <hr />
     <div className="col-sm-12">
       {props.children}
