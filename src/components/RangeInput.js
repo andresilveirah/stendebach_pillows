@@ -12,7 +12,7 @@ const RangeInput = (props) => {
   };
 
   return (
-    <div className="form-group row range-container">
+    <div className="form-group row">
       <label htmlFor={defaultInputProps.name} className="col-sm-4 col-form-label">{label}</label>
       <div className="col-sm-5">
         <Input type="range" className="form-control" {...defaultInputProps} />

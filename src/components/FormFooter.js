@@ -4,7 +4,7 @@ import '../bootstrap.min.css';
 
 const FormFooter = (props) => (
   <div className="row justify-content-center">
-    <button type="submit" className="col-sm-4 btn btn-primary">Abfrage 1 &rarr;</button>
+    <button type="submit" className="col-sm-4 btn btn-primary">Mein perfektes Kissen &rarr;</button>
   </div>
 );
 
