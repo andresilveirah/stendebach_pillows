@@ -1,21 +1,25 @@
 import scores, { totalScore } from './index';
 
 describe('scores state structure', () => {
-  it('contains bodyMeasurements', () => {
+  it('contains bodyMeasurements and sleepingPosition', () => {
     expect(scores(undefined, { type: 'MY-TEST' })).toEqual({
-      bodyMeasurements: {}
+      bodyMeasurements: {},
+      sleepingPosition: 1
     });
   });
 });
 
 describe('totalScore', () => {
-  it('returns the summed up score from bodyMeasurements', () => {
+  it('returns the summed up score from bodyMeasurements times the sleepingPosition', () => {
     expect(
       totalScore({
         scores: {
-          bodyMeasurements: {}
+          bodyMeasurements: {
+            foo: 2
+          },
+          sleepingPosition: 5
         }}
       ))
-    .toEqual(0);
+    .toEqual(10);
   });
 });

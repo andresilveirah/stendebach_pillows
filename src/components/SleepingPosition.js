@@ -7,10 +7,10 @@ import '../bootstrap.min.css';
 
 const SleepingPosition = () => (
   <Fieldset legend="Bevorzugte Schlafposition">
-    <RadioInput name="sleeping-position" label="Bauchlage" value="bellyDown" defaultChecked />
-    <RadioInput name="sleeping-position" label="Rückenlage" value="backDown" />
-    <RadioInput name="sleeping-position" label="Seitenlage nach vorne gebeugt" value="lateralLeaning" />
-    <RadioInput name="sleeping-position" label="Seitenlage" value="lateral" />
+    <RadioInput name="sleepingPosition" label="Bauchlage" value="bellyDown" defaultChecked />
+    <RadioInput name="sleepingPosition" label="Rückenlage" value="backDown" />
+    <RadioInput name="sleepingPosition" label="Seitenlage nach vorne gebeugt" value="lateralLeaning" />
+    <RadioInput name="sleepingPosition" label="Seitenlage" value="lateral" />
   </Fieldset>
 );
 
