@@ -21,7 +21,7 @@ let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
       <div className="col-md-3 col-sm-12">
         <img
           className="img-fluid rounded mx-auto d-block"
-          alt='hellow'
+          alt='Vermessungsbeispiel'
           src={measurementExample}
         />
       </div>
