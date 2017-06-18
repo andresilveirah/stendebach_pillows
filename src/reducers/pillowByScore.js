@@ -16,9 +16,9 @@ const PILLOWS = [
 // These are the score thresholds for each pillow
 // Example: a score of up to 21 corresponds to pillow1, a score of 27 corresponds to pillow2, and so on.
 const SCORE_THRESHOLDS = [
-  { maximumScore: 21, pillow: PILLOWS[0] },
-  { maximumScore: 36, pillow: PILLOWS[1] },
-  { maximumScore: 51, pillow: PILLOWS[2] }
+  { maximumScore: 36, pillow: PILLOWS[0] },
+  { maximumScore: 66, pillow: PILLOWS[1] },
+  { maximumScore: 90, pillow: PILLOWS[2] }
 ];
 
 const pillowByScore = (score, thresholds = SCORE_THRESHOLDS) => {
