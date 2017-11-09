@@ -3,14 +3,14 @@ import sortBy from 'lodash/fp/sortBy';
 import find from 'lodash/fp/find';
 import thru from 'lodash/fp/thru';
 
-import pillow1 from '../assets/gcozy/GCozy_NSK_orange_8cm.png';
-import pillow2 from '../assets/gcozy/GCozy_NSK_gruen_10cm.png';
-import pillow3 from '../assets/gcozy/GCozy_NSK_blau_13cm.png';
+import pillow1 from '../assets/gcozy/pillow8.jpg';
+import pillow2 from '../assets/gcozy/pillow10.jpg';
+import pillow3 from '../assets/gcozy/pillow13.jpg';
 
 const PILLOWS = [
-  { name: 'Nackenstützkissen G-COZY', height: '8 cm', picture: pillow1 },
-  { name: 'Nackenstützkissen G-COZY', height: '10 cm', picture: pillow2 },
-  { name: 'Nackenstützkissen G-COZY', height: '13 cm', picture: pillow3 }
+  { name: 'Nackenstützkissen VisCozy', height: '8 cm', picture: pillow1 },
+  { name: 'Nackenstützkissen VisCozy', height: '10 cm', picture: pillow2 },
+  { name: 'Nackenstützkissen VisCozy', height: '13 cm', picture: pillow3 }
 ];
 
 // These are the score thresholds for each pillow
