@@ -7,9 +7,7 @@ import { connect } from 'react-redux';
 
 import measurementExample from '../assets/G-Cozy_Vermessung.png';
 
-import './BodyMeasurements.css'
 import '../bootstrap.min.css';
-
 
 let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
   <div className="row align-items-center">
@@ -23,7 +21,7 @@ let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
     </div>
     <div className="col-md-4 col-sm-12">
       <img
-        className="img-fluid rounded mx-auto d-block measurement-example-hack"
+        className="img-fluid rounded mx-auto d-block"
         alt='Vermessungsbeispiel'
         src={measurementExample}
       />
