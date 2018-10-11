@@ -3,7 +3,7 @@
   "engines": {
     "node": "8.12.0"
   },
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Yet another TODO app using Redux",
   "private": true,
   "homepage": "http://codebikeandmore.com/stendebach_pillows",
