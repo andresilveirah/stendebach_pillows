@@ -1,5 +1,8 @@
 {
   "name": "stendebach_pillows",
+  "engines": {
+    "node": "8.12.0"
+  },
   "version": "0.1.14",
   "description": "Yet another TODO app using Redux",
   "private": true,
@@ -18,16 +21,17 @@
     "url": "https://github.com/andresilveira/stendebach_pillows/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-modal": "^2.0.2",
-    "react-redux": "^5.0.5",
-    "redux": "^3.6.0"
+    "lodash": "^4.17.11",
+    "react": "^16.5.2",
+    "react-app-polyfill": "^0.1.3",
+    "react-dom": "^16.5.2",
+    "react-modal": "^3.6.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.7"
+    "gh-pages": "^2.0.1",
+    "react-scripts": "2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "yarn run build; gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

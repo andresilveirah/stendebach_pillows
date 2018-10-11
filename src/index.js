@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie9'; // adds support to IE9-11
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
