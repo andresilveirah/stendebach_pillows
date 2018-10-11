@@ -18,7 +18,7 @@
     "url": "https://github.com/andresilveira/stendebach_pillows/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.11",
     "react": "^16.5.2",
     "react-app-polyfill": "^0.1.3",
     "react-dom": "^16.5.2",
