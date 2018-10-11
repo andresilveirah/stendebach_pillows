@@ -1,5 +1,8 @@
 {
   "name": "stendebach_pillows",
+  "engines": {
+    "node": "8.12.0"
+  },
   "version": "0.1.14",
   "description": "Yet another TODO app using Redux",
   "private": true,
