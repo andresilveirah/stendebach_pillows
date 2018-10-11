@@ -1,10 +1,17 @@
 {
-  "main.css": "static/css/main.d339b6b4.css",
-  "main.css.map": "static/css/main.d339b6b4.css.map",
-  "main.js": "static/js/main.857c5746.js",
-  "main.js.map": "static/js/main.857c5746.js.map",
-  "static/media/G-Cozy_Vermessung.png": "static/media/G-Cozy_Vermessung.d1ac8e85.png",
-  "static/media/pillow10.jpg": "static/media/pillow10.8c9ea886.jpg",
-  "static/media/pillow13.jpg": "static/media/pillow13.41319dbe.jpg",
-  "static/media/pillow8.jpg": "static/media/pillow8.86a8f888.jpg"
+  "main.css": "/stendebach_pillows/static/css/main.5f2461f5.chunk.css",
+  "main.js": "/stendebach_pillows/static/js/main.7daac133.chunk.js",
+  "main.js.map": "/stendebach_pillows/static/js/main.7daac133.chunk.js.map",
+  "static/js/1.42130774.chunk.js": "/stendebach_pillows/static/js/1.42130774.chunk.js",
+  "static/js/1.42130774.chunk.js.map": "/stendebach_pillows/static/js/1.42130774.chunk.js.map",
+  "runtime~main.js": "/stendebach_pillows/static/js/runtime~main.45e34344.js",
+  "runtime~main.js.map": "/stendebach_pillows/static/js/runtime~main.45e34344.js.map",
+  "static/media/pillow8.jpg": "/stendebach_pillows/static/media/pillow8.86a8f888.jpg",
+  "static/media/pillow13.jpg": "/stendebach_pillows/static/media/pillow13.41319dbe.jpg",
+  "static/media/G-Cozy_Vermessung.png": "/stendebach_pillows/static/media/G-Cozy_Vermessung.d1ac8e85.png",
+  "static/media/pillow10.jpg": "/stendebach_pillows/static/media/pillow10.8c9ea886.jpg",
+  "static/css/main.5f2461f5.chunk.css.map": "/stendebach_pillows/static/css/main.5f2461f5.chunk.css.map",
+  "index.html": "/stendebach_pillows/index.html",
+  "precache-manifest.934e879e854c46e2d6bd126b04bc3274.js": "/stendebach_pillows/precache-manifest.934e879e854c46e2d6bd126b04bc3274.js",
+  "service-worker.js": "/stendebach_pillows/service-worker.js"
 }
