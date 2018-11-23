@@ -5,9 +5,9 @@ import RangeInput from './RangeInput';
 
 import { connect } from 'react-redux';
 
-import measurementExample from '../assets/G-Cozy_Vermessung.png';
-
 import '../bootstrap.min.css';
+
+const measurementExample = 'http://betteninnovation.com/Vermessungsbeispiel/'
 
 let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
   <div className="row align-items-center">
@@ -29,9 +29,7 @@ let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
   </div>
 );
 
-const mapStateToProps = (state) => ({
-  ...state.attributes
-});
+const mapStateToProps = (state) => ({ ...state.attributes });
 
 BodyMeasurements = connect(mapStateToProps)(BodyMeasurements);
 

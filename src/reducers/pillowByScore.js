@@ -3,9 +3,9 @@ import sortBy from 'lodash/fp/sortBy';
 import find from 'lodash/fp/find';
 import thru from 'lodash/fp/thru';
 
-import pillow1 from '../assets/gcozy/pillow8.jpg';
-import pillow2 from '../assets/gcozy/pillow10.jpg';
-import pillow3 from '../assets/gcozy/pillow13.jpg';
+const pillow1 = 'http://betteninnovation.com/kissen-klein/';
+const pillow2 = 'http://betteninnovation.com/kissen-mittle/';
+const pillow3 = 'http://betteninnovation.com/kissen-gross/';
 
 const PILLOWS = [
   { name: 'Nackenstützkissen VisCozy', height: '8 cm', picture: pillow1 },
