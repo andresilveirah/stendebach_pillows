@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 
 import '../bootstrap.min.css';
 
-const measurementExample = 'http://betteninnovation.com/Vermessungsbeispiel/'
+import config from '../config.json';
 
 let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
   <div className="row align-items-center">
@@ -23,7 +23,7 @@ let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
       <img
         className="img-fluid rounded mx-auto d-block"
         alt='Vermessungsbeispiel'
-        src={measurementExample}
+        src={config.pictures.example}
       />
     </div>
   </div>
