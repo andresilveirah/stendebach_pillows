@@ -4,7 +4,7 @@ import PillowForm from './PillowForm';
 
 import './App.css';
 
-import '../bootstrap.min.css'
+import '../bootstrap.min.css';
 
 const App = () => (
   <div className="container">
