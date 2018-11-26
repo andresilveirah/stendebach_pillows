@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/stendebach_pillows/precache-manifest.5afb3092cfadbd21f25242353219989e.js"
+  "/stendebach_pillows/precache-manifest.fc9cf8641a2e119203cbf8f9a7ea20dc.js"
 );
 
 workbox.clientsClaim();
