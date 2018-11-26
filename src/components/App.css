@@ -6,6 +6,10 @@ hr {
   margin-top: 0px;
 }
 
+img {
+  background: transparent url('../assets/loading.gif') no-repeat scroll center center;
+}
+
 @include media-breakpoint-up(sm) {
   html {
     font-size: 20px;
