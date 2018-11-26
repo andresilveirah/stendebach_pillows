@@ -3,17 +3,15 @@ import sortBy from 'lodash/fp/sortBy';
 import find from 'lodash/fp/find';
 import thru from 'lodash/fp/thru';
 
-import config from '../config.json';
-
 // These are the score thresholds for each pillow
 // Example: a score of up to 21 corresponds to pillow1, a score of 27 corresponds to pillow2, and so on.
 const SCORE_THRESHOLDS = [
-  { maximumScore: 36, pillow: config.pillows.small },
-  { maximumScore: 66, pillow: config.pillows.medium },
-  { maximumScore: 90, pillow: config.pillows.big }
+  { maximumScore: 36, pillow: "small" },
+  { maximumScore: 66, pillow: "medium" },
+  { maximumScore: 90, pillow: "big" }
 ];
 
-const pillowByScore = (score, thresholds = SCORE_THRESHOLDS) => {
+const getPillowSizeByScore = (score, thresholds = SCORE_THRESHOLDS) => {
   return flow(
    sortBy([ 'maximumScore' ]),
    find(({ maximumScore }) => score <= maximumScore),
@@ -22,4 +20,4 @@ const pillowByScore = (score, thresholds = SCORE_THRESHOLDS) => {
   .pillow;
 };
 
-export default pillowByScore;
+export default getPillowSizeByScore;

@@ -11,10 +11,18 @@ import reducer from './reducers';
 
 import App from './components/App';
 
+import { config } from '../package.json';
+
+const loadConfig = () => fetch(config.pillowsJSON)
+  .then(response => response.json())
+  .then(config => store.dispatch({ config, type: 'CONFIG_READY' }));
+
 const store = createStore(
   reducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
+
+loadConfig();
 
 ReactDOM.render(
   <Provider store={store}>
