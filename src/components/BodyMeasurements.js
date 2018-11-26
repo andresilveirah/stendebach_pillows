@@ -7,9 +7,7 @@ import { connect } from 'react-redux';
 
 import '../bootstrap.min.css';
 
-const measurementExample = 'http://betteninnovation.com/Vermessungsbeispiel/'
-
-let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
+let BodyMeasurements = ({ shoulders, neck, head, earToShoulder, example }) => (
   <div className="row align-items-center">
     <div className="col-md-8 col-sm-12">
       <Fieldset legend="Körpermaße">
@@ -23,13 +21,16 @@ let BodyMeasurements = ({ shoulders, neck, head, earToShoulder }) => (
       <img
         className="img-fluid rounded mx-auto d-block"
         alt='Vermessungsbeispiel'
-        src={measurementExample}
+        src={example}
       />
     </div>
   </div>
 );
 
-const mapStateToProps = (state) => ({ ...state.attributes });
+const mapStateToProps = (state) => ({
+  ...state.attributes,
+  example: state.config.pictures.example
+});
 
 BodyMeasurements = connect(mapStateToProps)(BodyMeasurements);
 

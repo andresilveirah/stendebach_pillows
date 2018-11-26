@@ -1,0 +1,22 @@
+{
+  "pillows": {
+    "small": {
+      "name": "Nackenstützkissen VisCozy",
+      "height": "8 cm",
+      "picture": "http://betteninnovation.com/kissen-klein/"
+    },
+    "medium": {
+      "name": "Nackenstützkissen VisCozy",
+      "height": "10 cm",
+      "picture": "http://betteninnovation.com/kissen-mittle/"
+    },
+    "big": {
+      "name": "Nackenstützkissen VisCozy",
+      "height": "13 cm",
+      "picture": "http://betteninnovation.com/kissen-gross/"
+    }
+  },
+  "pictures": {
+    "example": "http://betteninnovation.com/Vermessungsbeispiel/"
+  }
+}
