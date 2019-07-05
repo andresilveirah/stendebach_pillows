@@ -3,7 +3,7 @@
   "engines": {
     "node": "8.12.0"
   },
-  "version": "0.1.18",
+  "version": "1.0.0",
   "description": "Yet another TODO app using Redux",
   "private": true,
   "homepage": "http://codebikeandmore.com/stendebach_pillows",
@@ -23,15 +23,15 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "^16.5.2",
-    "react-app-polyfill": "^0.1.3",
+    "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.5.2",
     "react-modal": "^3.6.1",
-    "react-redux": "^5.0.7",
+    "react-redux": "^7.1.0",
     "redux": "^4.0.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "react-scripts": "2.0.4"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
