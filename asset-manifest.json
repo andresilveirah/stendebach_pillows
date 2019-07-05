@@ -1,14 +1,16 @@
 {
-  "main.css": "/stendebach_pillows/static/css/main.80eabbf1.chunk.css",
-  "main.js": "/stendebach_pillows/static/js/main.79bad88e.chunk.js",
-  "main.js.map": "/stendebach_pillows/static/js/main.79bad88e.chunk.js.map",
-  "static/js/1.bde00f6b.chunk.js": "/stendebach_pillows/static/js/1.bde00f6b.chunk.js",
-  "static/js/1.bde00f6b.chunk.js.map": "/stendebach_pillows/static/js/1.bde00f6b.chunk.js.map",
-  "runtime~main.js": "/stendebach_pillows/static/js/runtime~main.45e34344.js",
-  "runtime~main.js.map": "/stendebach_pillows/static/js/runtime~main.45e34344.js.map",
-  "static/media/App.css": "/stendebach_pillows/static/media/loading.72628e44.gif",
-  "static/css/main.80eabbf1.chunk.css.map": "/stendebach_pillows/static/css/main.80eabbf1.chunk.css.map",
-  "index.html": "/stendebach_pillows/index.html",
-  "precache-manifest.fc9cf8641a2e119203cbf8f9a7ea20dc.js": "/stendebach_pillows/precache-manifest.fc9cf8641a2e119203cbf8f9a7ea20dc.js",
-  "service-worker.js": "/stendebach_pillows/service-worker.js"
+  "files": {
+    "main.css": "/stendebach_pillows/static/css/main.e9ebdd34.chunk.css",
+    "main.js": "/stendebach_pillows/static/js/main.fcaecda0.chunk.js",
+    "main.js.map": "/stendebach_pillows/static/js/main.fcaecda0.chunk.js.map",
+    "runtime~main.js": "/stendebach_pillows/static/js/runtime~main.90f02c26.js",
+    "runtime~main.js.map": "/stendebach_pillows/static/js/runtime~main.90f02c26.js.map",
+    "static/js/2.0ea8f99d.chunk.js": "/stendebach_pillows/static/js/2.0ea8f99d.chunk.js",
+    "static/js/2.0ea8f99d.chunk.js.map": "/stendebach_pillows/static/js/2.0ea8f99d.chunk.js.map",
+    "index.html": "/stendebach_pillows/index.html",
+    "precache-manifest.25b69ce8ab79fb59fdbecf20e1fd6f12.js": "/stendebach_pillows/precache-manifest.25b69ce8ab79fb59fdbecf20e1fd6f12.js",
+    "service-worker.js": "/stendebach_pillows/service-worker.js",
+    "static/css/main.e9ebdd34.chunk.css.map": "/stendebach_pillows/static/css/main.e9ebdd34.chunk.css.map",
+    "static/media/App.css": "/stendebach_pillows/static/media/loading.72628e44.gif"
+  }
 }
