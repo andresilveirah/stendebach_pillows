@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stendebach_pillows/static/css/main.e9ebdd34.chunk.css",
-    "main.js": "/stendebach_pillows/static/js/main.fcaecda0.chunk.js",
-    "main.js.map": "/stendebach_pillows/static/js/main.fcaecda0.chunk.js.map",
+    "main.js": "/stendebach_pillows/static/js/main.564f2258.chunk.js",
+    "main.js.map": "/stendebach_pillows/static/js/main.564f2258.chunk.js.map",
     "runtime~main.js": "/stendebach_pillows/static/js/runtime~main.90f02c26.js",
     "runtime~main.js.map": "/stendebach_pillows/static/js/runtime~main.90f02c26.js.map",
-    "static/js/2.0ea8f99d.chunk.js": "/stendebach_pillows/static/js/2.0ea8f99d.chunk.js",
-    "static/js/2.0ea8f99d.chunk.js.map": "/stendebach_pillows/static/js/2.0ea8f99d.chunk.js.map",
+    "static/js/2.93434e09.chunk.js": "/stendebach_pillows/static/js/2.93434e09.chunk.js",
+    "static/js/2.93434e09.chunk.js.map": "/stendebach_pillows/static/js/2.93434e09.chunk.js.map",
     "index.html": "/stendebach_pillows/index.html",
-    "precache-manifest.25b69ce8ab79fb59fdbecf20e1fd6f12.js": "/stendebach_pillows/precache-manifest.25b69ce8ab79fb59fdbecf20e1fd6f12.js",
+    "precache-manifest.d08125797b4a0433112ba15629c0c2b8.js": "/stendebach_pillows/precache-manifest.d08125797b4a0433112ba15629c0c2b8.js",
     "service-worker.js": "/stendebach_pillows/service-worker.js",
     "static/css/main.e9ebdd34.chunk.css.map": "/stendebach_pillows/static/css/main.e9ebdd34.chunk.css.map",
     "static/media/App.css": "/stendebach_pillows/static/media/loading.72628e44.gif"

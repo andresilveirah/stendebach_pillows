@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stendebach_pillows/precache-manifest.25b69ce8ab79fb59fdbecf20e1fd6f12.js"
+  "/stendebach_pillows/precache-manifest.d08125797b4a0433112ba15629c0c2b8.js"
 );
 
 self.addEventListener('message', (event) => {

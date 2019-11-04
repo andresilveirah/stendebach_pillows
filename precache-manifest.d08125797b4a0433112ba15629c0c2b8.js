@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2cda6b12d65d5883fba263a651fb420",
+    "revision": "7f99b73e07429f810ea49f51d34cedc9",
     "url": "/stendebach_pillows/index.html"
   },
   {
-    "revision": "dbe4244abca58bfb4c29",
+    "revision": "f8703da0a8163ec1d648",
     "url": "/stendebach_pillows/static/css/main.e9ebdd34.chunk.css"
   },
   {
-    "revision": "719fc3167a2ca28e98fa",
-    "url": "/stendebach_pillows/static/js/2.0ea8f99d.chunk.js"
+    "revision": "48cebb2e1081ee2e71de",
+    "url": "/stendebach_pillows/static/js/2.93434e09.chunk.js"
   },
   {
-    "revision": "dbe4244abca58bfb4c29",
-    "url": "/stendebach_pillows/static/js/main.fcaecda0.chunk.js"
+    "revision": "f8703da0a8163ec1d648",
+    "url": "/stendebach_pillows/static/js/main.564f2258.chunk.js"
   },
   {
     "revision": "4d12d294e086c7ec8185",
